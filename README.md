@@ -7,8 +7,8 @@ This application will allow a user to post a project he/she has created and get 
 To access the admin dashboard, follow the instructions below:
 
 * Navigate to `https://picstackone.herokuapp.com/admin`
-* Username: `mburu`
-* Password: `muur%820`
+* Username: `mbara`
+* Password: `maar#720`
 
 ## Project Run-Through
 * A few details about the Awardify project:
