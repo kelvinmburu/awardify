@@ -30,7 +30,7 @@
                             </a>
                         </div>
                         <div class="box-content over mi"
-                            style="background-image:url({% static 'images/download.jpeg' %})">
+                            style="background-image:url({% static 'images/bg.jpg' %})">
                             <a href="{% url 'project' random_post.title %}" class="site-link" aria-label=""></a>
                             <div class="inner vertical-center">
                                 <div class="box-info">
@@ -56,7 +56,7 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="legend">DESIGN</div>
+                                                <div class="legend">Design</div>
                                             </li>
                                             <li class="circle-note-progress style-usability"
                                                 data-note="{{rating.usability_average}}">
@@ -66,7 +66,7 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="legend">USABILITY</div>
+                                                <div class="legend">Usability</div>
                                             </li>
                                             <li class="circle-note-progress style-creativity"
                                                 data-note="{{rating.content_average}}">
@@ -76,7 +76,7 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="legend">CONTENT</div>
+                                                <div class="legend">Content</div>
                                             </li>
                                             <li class="circle-note-progress style-content"
                                                 data-note="{{ rating.score }}">
@@ -85,7 +85,7 @@
                                                         <p class="d-block mx-auto textrate">{{rating.score}}</p>
                                                     </div>
                                                 </div>
-                                                <div class="legend">SCORE</div>
+                                                <div class="legend">Score</div>
                                             </li>
                                             {% endif %}
                                             {% endfor %}
@@ -117,7 +117,7 @@
     </div>
 
     <div class="container">
-        <h2 class="mt-4">Websites available</h2>
+        <h2 class="mt-4">Websites Available</h2>
         {% if user.is_authenticated %}
         <div class="modal fade bd-example-modal-xl" id="ModalCenter" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

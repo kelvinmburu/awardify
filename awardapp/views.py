@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import SignupForm, PostForm, UpdateUserForm, UpdateUserProfileForm, RatingsForm
@@ -64,7 +63,7 @@ def signup(request):
 
 @login_required(login_url='login')
 def profile(request, username):
-    return render(request, 'profile.html')
+    return render(request, 'userprofile.html')
 
 
 def user_profile(request, username):
@@ -86,7 +85,7 @@ def edit_profile(request, username):
         if user_form.is_valid() and prof_form.is_valid():
             user_form.save()
             prof_form.save()
-            return redirect('profile', user.username)
+            return redirect('userprofile', user.username)
     else:
         user_form = UpdateUserForm(instance=request.user)
         prof_form = UpdateUserProfileForm(instance=request.user.profile)
