@@ -11,7 +11,7 @@ To access the admin dashboard, follow the instructions below:
 * Password: ``
 
 ## Project Run-Through
-* A few details about this project:
+* A few details about the Awardify project:
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/kelvinmburu/awardify)
 ![Lines of Code](https://img.shields.io/tokei/lines/github/kelvinmburu/awardify)
@@ -76,4 +76,4 @@ Alternatively, you can contact me via [LinkedIn](https://www.linkedin.com/in/kel
 
 ## License
 
-Please view the project [LICENSE](LICENSE) for more information.
+Please view the project [LICENSE](LICENSE) for details on license information.

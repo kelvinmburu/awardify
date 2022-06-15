@@ -143,6 +143,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+# Rest framework paramaters
+
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
