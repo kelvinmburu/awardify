@@ -1,5 +1,5 @@
 # Awardify
-This application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
+This application allows a user to post a project he/she has created and get it reviewed by peers in the community platform.
 
 ![Site Screenshot]()
 
@@ -29,11 +29,12 @@ To access the admin dashboard, follow the instructions below:
 2. [Django version 4](https://docs.djangoproject.com/en/4.0/)
 3. HTML, CSS and JavaScript
 4. Pip
+
 ## Project Requirements & Prerequisites
 
 1. IDE of Choice
 2. Python3
-3. Browser
+3. Browser (Chrome, Mozilla, Safari, Edge)
 
 * Please ensure you're working from a Windows/MacOS/Linux
 * Install Django through `pip install django`
